@@ -1,0 +1,91 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Hugo Creative Theme"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+ 	# information about you and your website.
+
+	name = "Weian Wang"
+	description = ""
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Great Chicago Fire Invitational"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Rules"
+			portfolio = "Schedule"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "The Great Chicago Fire Invitational"
+		subtitle   = "January 16-17, 2016"
+		buttonText = "Find Out More"
+
+
+	# About section
+	[params.about]
+		headline = "Welcome!"
+		description = "The Great Chicago Fire is the University of Chicago's invitational mock trial tournament. The second annual Great Chicago Fire Invitational will be held from January 16th to January 17th, 2016 at the Dirksen Federal Courthouse in Downtown Chicago. Unlike most other tournaments, the Great Chicago Fire Invitational features a bracket style elimination."
+		buttonText  = "Learn more!"
+
+
+	# Service section
+	[params.services]
+		headline = "Logistics"
+
+        [[params.services.list]]
+            title = "Location"
+            description = "Our tournament is hosted in one of the most beautiful courthouses in the Midwest. Located in downtown Chicago, the Great Chicago Fire Invitational is held in the center of a historic and bustling city unlike any other."
+
+        [[params.services.list]]
+		title = "Field"
+		description = "In our inaugural tournament, we hosted 11 schools, including our own. Nine went on to compete at ORCS, with four competing at the Nationals Touranment. The Ohio State University won our inaugural tournament, earning their eternal spot on our traveling trophy. 
+
+	[[params.services.list]]
+		 title = "Bracket-Style Elimination" 
+		 description = "Our tournament is unique in that it features a bracket-style elimination. Each team is assigned to one of four brackets and moves through the bracket after defeating their opponents until one champion remains. Meanwhile, any team that falls out of the bracket still competes against other teams in the traditional tournament style."
+      
+        [[params.services.list]]
+            title = "Our Tournamenst"
+            description = "Some things never change. Despite the different format, each team is guaranteed four complete rounds of competition, two rounds each of both prosecution and defense sides of the case, and a chance at placing and winning a trophy even if your teams are eliminated from the bracket."
+
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Get the Creative Theme for Hugo"
+
+		[params.aside.button]
+			text = "Download now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "For any questions about the Great Chicago Fire Invitational, please contact Catherine Martinez, our tournament director."
+		email = "uchicagotournament@gmail.com"		
