@@ -1,7 +1,7 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://replace-this-with-your-hugo-site.com"
 languageCode = "en-us"
-title = "Hugo Creative Theme"
-theme = "hugo-creative-theme"
+title = "The Great Chicago Fire"
+theme = "hugo-creative"
 
 [params]
 
@@ -21,7 +21,7 @@ theme = "hugo-creative-theme"
  	# information about you and your website.
 
 	name = "Weian Wang"
-	description = ""
+	description = "Invitational Tournament website for the University of Chicago's Great Chicago Fire Invitational"
 
 
 	# Navigation
@@ -30,8 +30,8 @@ theme = "hugo-creative-theme"
 
 		[params.navigation.links]
 			about     = "About"
-			services  = "Rules"
-			portfolio = "Schedule"
+			services  = "Logistics"
+			portfolio = "Results"
 			contact   = "Contact"
 
 
@@ -40,14 +40,15 @@ theme = "hugo-creative-theme"
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "The Great Chicago Fire Invitational"
 		subtitle   = "January 16-17, 2016"
-		buttonText = "Find Out More"
+		buttonText = "Learn More"
 
 
 	# About section
 	[params.about]
 		headline = "Welcome!"
 		description = "The Great Chicago Fire is the University of Chicago's invitational mock trial tournament. The second annual Great Chicago Fire Invitational will be held from January 16th to January 17th, 2016 at the Dirksen Federal Courthouse in Downtown Chicago. Unlike most other tournaments, the Great Chicago Fire Invitational features a bracket style elimination."
-		buttonText  = "Learn more!"
+		buttonText  = "For Competitors"
+		button2Text = "For Judges"
 
 
 	# Service section
@@ -58,34 +59,29 @@ theme = "hugo-creative-theme"
             title = "Location"
             description = "Our tournament is hosted in one of the most beautiful courthouses in the Midwest. Located in downtown Chicago, the Great Chicago Fire Invitational is held in the center of a historic and bustling city unlike any other."
 
-        [[params.services.list]]
-		title = "Field"
-		description = "In our inaugural tournament, we hosted 11 schools, including our own. Nine went on to compete at ORCS, with four competing at the Nationals Touranment. The Ohio State University won our inaugural tournament, earning their eternal spot on our traveling trophy." 
-
 	[[params.services.list]]
 		 title = "Bracket-Style Elimination" 
-		 description = "Our tournament is unique in that it features a bracket-style elimination. Each team is assigned to one of four brackets and moves through the bracket after defeating their opponents until one champion remains. Meanwhile, any team that falls out of the bracket still competes against other teams in the traditional tournament style."
+		 description = "Each team is assigned to one of four brackets and moves through the bracket after defeating their opponents until one champion remains. Meanwhile, any team that falls out of the bracket still competes against other teams in the traditional tournament style."
       
         [[params.services.list]]
-            title = "Our Tournamenst"
+            title = "Our Tournament"
             description = "Some things never change. Despite the different format, each team is guaranteed four complete rounds of competition, two rounds each of both prosecution and defense sides of the case, and a chance at placing and winning a trophy even if your teams are eliminated from the bracket."
 
-	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
 
-    # Aside section
-	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
+	[[params.services.list]]
+		title = "The Field"
+		description = "We're excited to host some cool people who are really good at Mock Trial." 
 
-		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+	# Portfolio modals
+	[params.portfolio.model]
+		client = "2015 GCFI Tab Summary"
+		date = "January 15-16, 2015"
+		category = "Tab Summary"
+		buttontext = "Close"
 
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"
-		description = "For any questions about the Great Chicago Fire Invitational, please contact Catherine Martinez, our tournament director."
+		description = "For any questions about the Great Chicago Fire Invitational, please contact Catherine Martinez, our tournament director, or visit us on Facebook."
+		facebook="GCFI on Facebook"
 		email = "uchicagotournament@gmail.com"		
