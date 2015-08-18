@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://uchicagomocktrial.github.io/gcfi"
 languageCode = "en-us"
 title = "Hugo Creative Theme"
 theme = "hugo-creative-theme"

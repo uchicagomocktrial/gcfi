@@ -60,7 +60,7 @@ theme = "hugo-creative-theme"
 
         [[params.services.list]]
 		title = "Field"
-		description = "In our inaugural tournament, we hosted 11 schools, including our own. Nine went on to compete at ORCS, with four competing at the Nationals Touranment. The Ohio State University won our inaugural tournament, earning their eternal spot on our traveling trophy. 
+		description = "In our inaugural tournament, we hosted 11 schools, including our own. Nine went on to compete at ORCS, with four competing at the Nationals Touranment. The Ohio State University won our inaugural tournament, earning their eternal spot on our traveling trophy." 
 
 	[[params.services.list]]
 		 title = "Bracket-Style Elimination" 
