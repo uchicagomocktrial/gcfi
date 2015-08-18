@@ -72,13 +72,6 @@ theme = "hugo-creative"
 		title = "The Field"
 		description = "We're excited to host some cool people who are really good at Mock Trial." 
 
-	# Portfolio modals
-	[params.portfolio.model]
-		client = "2015 GCFI Tab Summary"
-		date = "January 15-16, 2015"
-		category = "Tab Summary"
-		buttontext = "Close"
-
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"
