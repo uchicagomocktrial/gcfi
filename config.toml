@@ -71,6 +71,17 @@ theme = "hugo-creative"
 		title = "The Field"
 		description = "We're excited to host some cool people who are really good at Mock Trial." 
 
+
+	# Schedule section
+	[params.schedule]
+		headline="Schedule"
+
+	[[params.schedule.list]]
+		day = "Saturday, January 16"
+
+	[[params.schedule.list]]
+		day = "Sunday, January 17"
+
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"

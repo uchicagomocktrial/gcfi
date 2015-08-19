@@ -1,0 +1,31 @@
+{{ "<!-- SCHEDULE -- >" | safeHTML }}
+<section id="schedule">
+  <div class="container">
+    <div class="col-lg-12 text-center">
+      <h2 class="section heading">{{with .Site.Params.schedule.headline }}{{ . }}{{ end }}</h2>
+      <hr class="primary">
+    </div>
+   </div>
+  <div class="container">
+    <div class="row">
+      {{ range .Site.Params.schedule.list }}
+      <div class="col-lg-3 col-md-6 text-center">
+	<div class="sched-box">
+	  <h3>{{ .day }}</h3>
+	  <!--
+	  {{ range $time, $event := .events}}
+	  <table>
+	    <tbody>
+	      <tr>
+		<td>{{ $time }}</td>
+		<td>{{ $event }}</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	  //-->
+	</div>
+      </div>
+      {{ end }}
+    </div>
+</section>
+

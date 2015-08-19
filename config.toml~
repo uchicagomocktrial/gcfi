@@ -1,4 +1,4 @@
-baseurl = "http://uchicagomocktrial.github.io"
+baseurl = "http://uchicagomocktrial.github.io/"
 languageCode = "en-us"
 title = "The Great Chicago Fire"
 theme = "hugo-creative"
@@ -70,6 +70,19 @@ theme = "hugo-creative"
 	[[params.services.list]]
 		title = "The Field"
 		description = "We're excited to host some cool people who are really good at Mock Trial." 
+
+
+	# Schedule section
+	[params.schedule]
+		headline="Schedule"
+
+	[[params.schedule.list]]
+		day = "Saturday, January 16"
+		events = [{"5:00 AM", "Wake the fuck up"},{"6:00 AM", "Get dressed"}, {"7:00 AM", "Eat food"}]
+
+	[[params.schedule.list]]
+		day = "Sunday, January 17"
+		events = [{"5:00 AM", "WAke the fuck up"}, {"6:00 AM", "Get dressed"}, {"7:00 AM", "Eat food"}]
 
 	# Contact section
 	[params.contact]
